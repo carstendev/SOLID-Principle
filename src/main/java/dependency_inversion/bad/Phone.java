@@ -20,23 +20,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package interface_segregation.bad;
+package dependency_inversion.bad;
 
-public class DBLogger implements BadLogger {
-
-	@Override
-	public void log(String logMessage) {
-		// log the message
-	}
-
-	@Override
-	public void openConnection() {
-		// Open db connection
-	}
-
-	@Override
-	public void closeConnection() {
-		// Close db connection
-	}
+public class Phone {
+    
+    public void setPhoneAlarm() {
+	// set alarm
+    }
 
 }

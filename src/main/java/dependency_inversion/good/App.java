@@ -20,23 +20,27 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package interface_segregation.bad;
+package dependency_inversion.good;
 
-public class DBLogger implements BadLogger {
+/**
+ * This example shows a solution to remove a violation of the dependency
+ * inversion principle.
+ * 
+ * We can observe, that the human does not depend on a concrete implementation.
+ * The class rather depends on the abstraction of an alarm.
+ * 
+ * This enables us to use different alarm implementations and also adhere to the
+ * Open/Closed-Principle, because we can now add other alarm implementation in
+ * the future without changing the human class.
+ */
+public class App {
 
-	@Override
-	public void log(String logMessage) {
-		// log the message
-	}
+    public static void main(String[] args) {
+	Human human = new Human();
+	human.setAlarm(new AlarmClock());
 
-	@Override
-	public void openConnection() {
-		// Open db connection
-	}
-
-	@Override
-	public void closeConnection() {
-		// Close db connection
-	}
+	Human otherHuman = new Human();
+	otherHuman.setAlarm(new Phone());
+    }
 
 }

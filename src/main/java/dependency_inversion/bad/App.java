@@ -20,23 +20,25 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package interface_segregation.bad;
+package dependency_inversion.bad;
 
-public class DBLogger implements BadLogger {
+/**
+ * This App example showcases a violation of the dependency inversion principle.
+ * 
+ * We can observe, that the human depends on a concrete implementation of the
+ * phone class, rather than abstraction. Because of this we are not able to
+ * exchange the Phone for an other alarm implementation.
+ * 
+ * To remove the violation of the dependency inversion principle, we would want
+ * to replace the concrete phone implementation with an abstraction for the
+ * alarm functionality.
+ */
+public class App {
 
-	@Override
-	public void log(String logMessage) {
-		// log the message
-	}
-
-	@Override
-	public void openConnection() {
-		// Open db connection
-	}
-
-	@Override
-	public void closeConnection() {
-		// Close db connection
-	}
+    public static void main(String[] args) {
+	Phone phone = new Phone();
+	Human human = new Human();
+	human.setAlarm(phone);
+    }
 
 }
