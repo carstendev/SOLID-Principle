@@ -1,4 +1,7 @@
 # SOLID-Principle
+
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
+
 This project tries to shed some light onto the SOLID-Principle. It uses various code examples, to show bad and good implementations of each principle.
 
 The SOLID-Principle is a mnemonic acronym introduced by Michael Feathers for the "first five principles" named by Robert C. Martin in the early 2000s.
@@ -18,4 +21,9 @@ The principle mnemonic acronym stands for the following principles:
 
 <li>D - Dependency inversion principle</li>
 </ul>
+
+# License
+
+This project is licensed under the terms of the MIT license.
+
 
