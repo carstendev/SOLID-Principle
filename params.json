@@ -1,0 +1,6 @@
+{
+  "name": "SOLID-Principle",
+  "tagline": "Showcasing the SOLID-Principle with varius code examples.",
+  "body": "# SOLID-Principle\r\nThis project tries to shed some light onto the SOLID-Principle.\r\nIt uses various code examples, to show <b>bad</b> and <b>good</b> implementations of each principle.\r\n\r\nThe SOLID-Principle is a <i>mnemonic acronym</i> introduced by Michael Feathers \r\nfor the \"first five principles\" named by Robert C. Martin in the early 2000s.\r\n\r\nIt names five basic principles of object oriented design, with the intent to help programmers\r\ncreate systems that are easy to maintain and extend. \r\n\r\nThe principle <i>mnemonic acronym</i> stands for the following principles:\r\n\r\n<ul>\r\n\r\n<li>S -> Single responsibility principle</li>\r\n\r\n<li>O -> Open/closed principle</li>\r\n\r\n<li>L -> Liskov substitution principle</li>\r\n\r\n<li>I -> Interface segregation principle</li>\r\n\r\n<li>D -> Dependency inversion principle</li>\r\n\r\n<ul>\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
