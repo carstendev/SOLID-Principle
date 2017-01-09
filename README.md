@@ -12,7 +12,7 @@ The SOLID-Principle is a mnemonic acronym introduced by Michael Feathers for the
 
 It names five basic principles of object oriented design, with the intent to help programmers create systems that are easy to maintain and extend.
 
-The principle mnemonic acronym stands for the following principles:
+The principle's mnemonic acronym stands for the following principles:
 
 <ul>
 <li>S - Single responsibility principle</li>
