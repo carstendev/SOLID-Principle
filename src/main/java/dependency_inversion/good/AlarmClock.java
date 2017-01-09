@@ -30,9 +30,9 @@ package dependency_inversion.good;
  */
 public class AlarmClock implements Alarm {
 
-	@Override
-	public void setAlarm() {
-		// set alarm
-	}
+    @Override
+    public void setAlarm() {
+        // set alarm
+    }
 
 }

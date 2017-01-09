@@ -26,7 +26,7 @@ public class IntimateContactPerson implements ContactPerson {
 
     @Override
     public String getSalutation() {
-	return "Hello honey!";
+        return "Hello honey!";
     }
 
 }

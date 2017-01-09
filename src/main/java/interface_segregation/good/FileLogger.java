@@ -26,7 +26,7 @@ public class FileLogger implements Logger {
 
     @Override
     public void log(String logMessage) {
-	// log to file
+        // log to file
     }
 
 }

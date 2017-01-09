@@ -25,15 +25,15 @@ package single_responsibility.bad;
 public class Book {
 
     public String getTitle() {
-	return "title";
+        return "title";
     }
 
     public String getAuthor() {
-	return "John Doe";
+        return "John Doe";
     }
 
     public void turnPage() {
-	// point to next page
+        // point to next page
     }
 
     /**
@@ -41,7 +41,7 @@ public class Book {
      * not be mixed with business-logic.
      */
     public void printCurrentPage() {
-	// print page
+        // print page
     }
 
 }

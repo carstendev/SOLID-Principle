@@ -24,8 +24,8 @@ package dependency_inversion.bad;
 
 public class Phone {
 
-	public void setPhoneAlarm() {
-		// set alarm
-	}
+    public void setPhoneAlarm() {
+        // set alarm
+    }
 
 }

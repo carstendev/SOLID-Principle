@@ -30,9 +30,9 @@ package dependency_inversion.good;
  */
 public class Phone implements Alarm {
 
-	@Override
-	public void setAlarm() {
-		// set the alarm
-	}
+    @Override
+    public void setAlarm() {
+        // set the alarm
+    }
 
 }

@@ -30,6 +30,6 @@ package dependency_inversion.good;
  */
 public interface Alarm {
 
-	public void setAlarm();
+    public void setAlarm();
 
 }

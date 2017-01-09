@@ -24,9 +24,9 @@ package dependency_inversion.bad;
 
 public class Human {
 
-	private String name;
+    private String name;
 
-	public void setAlarm(Phone phone) {
-		phone.setPhoneAlarm();
-	}
+    public void setAlarm(Phone phone) {
+        phone.setPhoneAlarm();
+    }
 }

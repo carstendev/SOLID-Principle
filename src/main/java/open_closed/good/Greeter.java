@@ -27,10 +27,10 @@ public class Greeter {
     private ContactPerson person;
 
     public Greeter(ContactPerson person) {
-	this.person = person;
+        this.person = person;
     }
 
     public String greet() {
-	return this.person.getSalutation();
+        return this.person.getSalutation();
     }
 }

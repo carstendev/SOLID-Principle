@@ -26,7 +26,7 @@ public class FormalContactPerson implements ContactPerson {
 
     @Override
     public String getSalutation() {
-	return "Hello, sir";
+        return "Hello, sir";
     }
 
 }

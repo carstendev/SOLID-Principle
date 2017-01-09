@@ -26,17 +26,17 @@ public class DBLogger implements Logger, DBConnectionHandler {
 
     @Override
     public void openConnection() {
-	// open connection
+        // open connection
     }
 
     @Override
     public void closeConnection() {
-	// close connection
+        // close connection
     }
 
     @Override
     public void log(String logMessage) {
-	// log to db
+        // log to db
     }
 
 }

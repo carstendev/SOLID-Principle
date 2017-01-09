@@ -35,12 +35,12 @@ package dependency_inversion.good;
  */
 public class App {
 
-	public static void main(String[] args) {
-		Human human = new Human();
-		human.setAlarm(new AlarmClock());
+    public static void main(String[] args) {
+        Human human = new Human();
+        human.setAlarm(new AlarmClock());
 
-		Human otherHuman = new Human();
-		otherHuman.setAlarm(new Phone());
-	}
+        Human otherHuman = new Human();
+        otherHuman.setAlarm(new Phone());
+    }
 
 }
