@@ -22,8 +22,14 @@
  */
 package dependency_inversion.good;
 
+/**
+ * Interface that represents an Alarm.
+ * 
+ * @author c.timpert
+ *
+ */
 public interface Alarm {
-    
-    public void setAlarm();
+
+	public void setAlarm();
 
 }

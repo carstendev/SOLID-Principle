@@ -23,9 +23,9 @@
 package dependency_inversion.good;
 
 public class Human {
-    
-    public void setAlarm(Alarm alarm) {
-	alarm.setAlarm();
-    }
+
+	public void setAlarm(Alarm alarm) {
+		alarm.setAlarm();
+	}
 
 }

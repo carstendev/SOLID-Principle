@@ -22,11 +22,17 @@
  */
 package dependency_inversion.good;
 
+/**
+ * A concrete implementation of a class, that provides the alarm functionality.
+ * 
+ * @author c.timpert
+ *
+ */
 public class AlarmClock implements Alarm {
 
-    @Override
-    public void setAlarm() {
-	// set alarm
-    }
+	@Override
+	public void setAlarm() {
+		// set alarm
+	}
 
 }
