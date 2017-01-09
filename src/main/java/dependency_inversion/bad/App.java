@@ -35,10 +35,10 @@ package dependency_inversion.bad;
  */
 public class App {
 
-	public static void main(String[] args) {
-		Phone phone = new Phone();
-		Human human = new Human();
-		human.setAlarm(phone);
-	}
+    public static void main(String[] args) {
+        Phone phone = new Phone();
+        Human human = new Human();
+        human.setAlarm(phone);
+    }
 
 }
